@@ -6,7 +6,7 @@ int t;
  
 void solve()
 {
-    
+    cout << "0\n";
 }
  
 int main()
