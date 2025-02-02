@@ -6,7 +6,12 @@ int t;
  
 void solve()
 {
-    
+    int n, x, y; cin >> n >> x >> y;
+    for(int i = 1; i<=n; i++){
+        if(i == x || i == y) cout << "1 ";
+        else cout << "-1 ";
+    }
+    cout << "\n";
 }
  
 int main()
