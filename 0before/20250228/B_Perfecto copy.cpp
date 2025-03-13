@@ -12,14 +12,6 @@ void solve()
         cout << "-1\n";
         return;
     }
-    if(n == 2){
-        cout << "2 1\n";
-        return;
-    }
-    if(s.find(n*(n+1)/2) != s.end()){
-        cout << "-1\n";
-        return;
-    }
     cout << "2 1 ";
     ll cur = 3;
     bool flag = true;
