@@ -10,7 +10,7 @@ void solve()
 int main()
 {
     FASTIO;
-    int _tc; cin >> _tc;
-    while (_tc--) solve();
+    int t; cin >> t;
+    while (t--) solve();
     return 0;
 }
