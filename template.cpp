@@ -7,7 +7,7 @@ void solve()
     
 }
  
-int main()
+signed main()
 {
     FASTIO;
     int _tc; cin >> _tc;
