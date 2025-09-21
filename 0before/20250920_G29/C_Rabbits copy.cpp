@@ -21,15 +21,19 @@ void solve()
     for(int i = 1; i<=n; i++){
         if(fxd[i] || s[i] == '1') continue;
         if(s[i] == '0'){
-            if(s[i-1] == '0' || s[i+1] == '0') continue;
-            
-            if(i-1 != 1 && s[i-2] == '0' && !fxd[i-2]){
-                // fxd[i] = true;
-                continue;
-            }
-            if(i+1 != n && s[i+2] == '0'){
-                fxd[i+2] = true;
-                continue;
+            if(s[i-1] == '0') continue;
+            if(s[i+1] == '0') continue;
+            if(s[i+1] == '1'){
+                if(s[i-1] != 1 && s[i-2] == '0' && !fxd[i-2]){
+                    // fxd[i] = true;
+                    continue;
+                }
+
+                if(i+1 != n && s[i+2] == '0'){
+                    fxd[i+2] = true;
+                    continue;
+                }
+
             }
         }
         flag = false;
