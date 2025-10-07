@@ -1,0 +1,1 @@
+{"name":"Local: B_Deck_of_Cards copy","url":"d:\\GitHub\\codeforces\\B_Deck_of_Cards copy.cpp","tests":[{"id":1759762853923,"input":"4\n4 2\n01\n3 2\n22\n1 1\n2\n7 5\n01201\n","output":"-++-\n???\n-\n--?+?--\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\GitHub\\codeforces\\B_Deck_of_Cards copy.cpp","group":"local","local":true}
