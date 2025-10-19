@@ -7,7 +7,7 @@ void solve()
 {
     
 }
- 
+
 signed main()
 {
     FASTIO;
