@@ -5,16 +5,13 @@ typedef long long ll;
 
 string s;
 
-void solve()
-{
+void solve() {
     cin >> s;
     int ycnt = 0;
-    for (int i = 0; i < s.length(); i++)
-    {
-        if (s[i] == 'Y')
+    for(int i = 0; i < s.length(); i++) {
+        if(s[i] == 'Y')
             ycnt++;
-        if (ycnt > 1)
-        {
+        if(ycnt > 1) {
             cout << "NO\n";
             return;
         }
@@ -23,12 +20,11 @@ void solve()
     cout << "YES\n";
 }
 
-signed main()
-{
+signed main() {
     FASTIO;
     int _tc;
     cin >> _tc;
-    while (_tc--)
+    while(_tc--)
         solve();
     return 0;
 }
