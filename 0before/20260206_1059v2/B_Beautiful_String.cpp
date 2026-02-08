@@ -3,11 +3,22 @@
 using namespace std;
 typedef long long ll;
 
-
+int n;
+string s;
 
 void solve()
 {
-    
+    vector<int> ans;
+
+    cin >> n;
+    cin >> s;
+    for(int i = 0; i<n; i++){
+        if(s[i] == '0') ans.push_back(i+1);
+    }
+
+    cout << ans.size() <<"\n";
+    for(int e: ans) cout << e <<" ";
+    cout << "\n";
 }
 
 signed main()

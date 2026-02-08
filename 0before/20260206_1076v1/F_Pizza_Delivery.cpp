@@ -3,11 +3,16 @@
 using namespace std;
 typedef long long ll;
 
-
+int n;
+int ax, ay, bx, by;
+pair<int, int> p[200'001];
 
 void solve()
 {
-    
+    cin >> n >> ax >> ay >> bx >> by;
+    for(int i = 0; i<n; i++){
+        
+    }
 }
 
 signed main()

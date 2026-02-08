@@ -3,11 +3,19 @@
 using namespace std;
 typedef long long ll;
 
-
+int n;
+int a[11];
 
 void solve()
 {
-    
+    int ans = 0;
+
+    cin >> n;
+    for(int i = 0; i<n; i++){
+        cin >> a[i];
+        ans = max(ans, a[i]);
+    }
+    cout << ans <<"\n";
 }
 
 signed main()

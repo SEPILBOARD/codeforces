@@ -3,11 +3,19 @@
 using namespace std;
 typedef long long ll;
 
-
+int n, s, x;
 
 void solve()
 {
-    
+    int sum = 0;
+    cin >> n >> s >> x;
+    for(int i = 0; i<n; i++){
+        int a; cin >> a;
+        sum += a;
+    }
+
+    if(s>=sum && (s-sum)%x == 0) cout << "YES\n";
+    else cout << "NO\n";
 }
 
 signed main()
